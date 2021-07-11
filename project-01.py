@@ -9,7 +9,7 @@ async def on_ready():
 
     print(client.user.name)
     print('봇이 성공적으로 시작되었습니다.')
-    game = discord.Game('형진이 전용 재떨이')
+    game = discord.Game('')
     await client.change_presence(status=discord.Status.online, activity=game)
 
 access_token = os.environ['BOT_TOKEN']
