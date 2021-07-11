@@ -9,7 +9,7 @@ async def on_ready():
 
     print(client.user.name)
     print('봇이 성공적으로 시작되었습니다.')
-    game = discord.Game('')
+    game = discord.Game('패드립')
     await client.change_presence(status=discord.Status.online, activity=game)
 
 access_token = os.environ['BOT_TOKEN']
