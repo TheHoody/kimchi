@@ -12,6 +12,6 @@ async def on_ready():
     game = discord.Game('형진이 전용 재떨이')
     await client.change_presence(status=discord.Status.online, activity=game)
 
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ['BOT_TOKEN']
 client.run(access_token)
 
